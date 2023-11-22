@@ -1,13 +1,13 @@
 import  string
 import  random
-choise=input("Enter  your  choice  (odd/even)")
-a=int(input("  enter  a  random  number  between  1-6"))
+choice=input("Enter  your  choice  (odd/even):  ")
+a=int(input("  enter  a  random  number  between  1-6:  "))
 b=random.randint(1,6)
 S=a+b
 if(S%2==0 and  choice=="even"):
-  print("congrats  you  won  the  toss  \n  what  are  you  choosing  (batting/bowling)??")
+  print("congrats  you  won  the  toss  \n  what  are  you  choosing  (batting/bowling)??:    ")
 elif(S%2!=0 and  choice=="odd"):
-  print("congrats  you  won  the  toss  \n  what  are  you  choosing  (batting/bowling)??")
+  print("congrats  you  won  the  toss  \n  what  are  you  choosing  (batting/bowling)??:    ")
 else:
   print("you  lost  the  toss")
   cric=["batting","bowling"]
@@ -18,16 +18,15 @@ for  i  in  range(0,11,1):
   j=int(input("enter  run:  "))
   c=random.randint(1,6)
   print(f"computer  put{c}")
-  if(j==c  and  i=0):
+  if(j==c  and  i==0):
     print("golden  duck")
     break
-  elif(j==c);
-    SUM+=J
+  elif(j==c):
+    SUM+=j
     print(f"your  score  is  {SUM}")
     break
   else:
-    SUM+=J
-  
+    SUM+=j
   
 
  
