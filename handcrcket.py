@@ -3,6 +3,7 @@ import  random
 choice=input("Enter  your  choice  (odd/even):  ")
 a=int(input("  enter  a  random  number  between  1-6:  "))
 b=random.randint(1,6)
+print(f"computer choice {b}")
 S=a+b
 if(S%2==0 and  choice=="even"):
   print("congrats  you  won  the  toss  \n  what  are  you  choosing  (batting/bowling)??:    ")
