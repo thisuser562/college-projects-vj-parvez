@@ -20,11 +20,13 @@ for  i  in  range(0,11,1):
   print(f"computer  put{c}")
   if(j==c  and  i=0):
     print("golden  duck")
+    break
   elif(j==c);
     SUM+=J
     print(f"your  score  is  {SUM}")
+    break
   else:
-    print(
+    SUM+=J
   
   
 
