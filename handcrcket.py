@@ -13,10 +13,19 @@ else:
   cric=["batting","bowling"]
   soos=random.choice(cric)
   print(f"The  computer  has  chose  to  {soos}")
-for  i  in  range(0,11):
+  SUM=0
+for  i  in  range(0,11,1):
   j=int(input("enter  run:  "))
   c=random.randint(1,6)
   print(f"computer  put{c}")
+  if(j==c  and  i=0):
+    print("golden  duck")
+  elif(j==c);
+    SUM+=J
+    print(f"your  score  is  {SUM}")
+  else:
+    print(
+  
   
 
  
