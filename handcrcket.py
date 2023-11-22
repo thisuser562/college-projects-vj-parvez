@@ -13,6 +13,11 @@ else:
   cric=["batting","bowling"]
   soos=random.choice(cric)
   print(f"The  computer  has  chose  to  {soos}")
+for  i  in  range(0,11):
+  j=int(input("enter  run:  "))
+  c=random.randint(1,6)
+  print(f"computer  put{c}")
+  
 
  
   
